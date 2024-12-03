@@ -1,4 +1,4 @@
-# Zoomicon.ZUI.Delphi
+# Zoomicon.ZUI.FMX.Delphi
 Zooming User Interface (ZUI) controls for Delphi
 
 Originated in the context of the [READ-COM Application](https://github.com/Zoomicon/READCOM_App) project.
