@@ -1,0 +1,23 @@
+{
+    "name": "ZUI_Demo",
+
+    "description": "Zoomicon ZUI FMX Demo app",
+
+    "version": "1.0",
+
+    "homepage": "https://github.com/Zoomicon/Zoomicon.ZUI.FMX.Demo/Demo",
+
+    "main": "ZUI_Demo.dproj",
+    "mainsrc": ".",
+
+    "projects": [
+        "ZUI_Demo.dproj"
+    ],
+
+    "dependencies": {
+        "github.com/zoomicon/zoomicon.helpers.rtl.delphi": ">0.0.0",
+        "github.com/zoomicon/zoomicon.helpers.fmx.delphi": ">0.0.0",
+        "github.com/zoomicon/zoomicon.zui.fmx.delphi": ">0.0.0"
+    }
+
+}

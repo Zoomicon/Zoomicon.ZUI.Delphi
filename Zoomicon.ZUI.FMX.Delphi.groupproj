@@ -3,6 +3,9 @@
         <ProjectGuid>{63561014-6F4B-4204-8965-D0FB8DBFBC0E}</ProjectGuid>
     </PropertyGroup>
     <ItemGroup>
+        <Projects Include="Demo\\ZUI_Demo.dproj">
+            <Dependencies/>
+        </Projects>
         <Projects Include="Source\Zoomicon.ZUI.FMX.dproj">
             <Dependencies/>
         </Projects>
@@ -14,6 +17,15 @@
             <Default.Personality/>
         </BorlandProject>
     </ProjectExtensions>
+    <Target Name="ZUI_Demo">
+        <MSBuild Projects="Demo\\ZUI_Demo.dproj"/>
+    </Target>
+    <Target Name="ZUI_Demo:Clean">
+        <MSBuild Projects="Demo\\ZUI_Demo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ZUI_Demo:Make">
+        <MSBuild Projects="Demo\\ZUI_Demo.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Zoomicon_ZUI_FMX">
         <MSBuild Projects="Source\Zoomicon.ZUI.FMX.dproj"/>
     </Target>
@@ -24,13 +36,13 @@
         <MSBuild Projects="Source\Zoomicon.ZUI.FMX.dproj" Targets="Make"/>
     </Target>
     <Target Name="Build">
-        <CallTarget Targets="Zoomicon_ZUI_FMX"/>
+        <CallTarget Targets="ZUI_Demo;Zoomicon_ZUI_FMX"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="Zoomicon_ZUI_FMX:Clean"/>
+        <CallTarget Targets="ZUI_Demo:Clean;Zoomicon_ZUI_FMX:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="Zoomicon_ZUI_FMX:Make"/>
+        <CallTarget Targets="ZUI_Demo:Make;Zoomicon_ZUI_FMX:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
