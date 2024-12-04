@@ -82,6 +82,7 @@ object MainForm: TMainForm
               TabOrder = 6
               Text = 'Zoom to Bottom-Right'
               TextSettings.WordWrap = True
+              TextSettings.Trimming = None
               OnClick = btnZoomClick
             end
             object btnTopLeft: TButton
@@ -93,6 +94,7 @@ object MainForm: TMainForm
               TabOrder = 5
               Text = 'Zoom to Top-Left'
               TextSettings.WordWrap = True
+              TextSettings.Trimming = None
               OnClick = btnZoomClick
               object btnTopLeftChild: TButton
                 Position.X = 8.000000000000000000
@@ -102,6 +104,7 @@ object MainForm: TMainForm
                 Size.PlatformDefault = False
                 TabOrder = 5
                 Text = 'Zoom to Child'
+                TextSettings.Trimming = None
                 OnClick = btnZoomClick
               end
             end
@@ -114,6 +117,7 @@ object MainForm: TMainForm
               TabOrder = 1
               Text = 'Zoom to Top-Right'
               TextSettings.WordWrap = True
+              TextSettings.Trimming = None
               OnClick = btnZoomClick
             end
             object btnBottomLeft: TButton
@@ -125,6 +129,7 @@ object MainForm: TMainForm
               TabOrder = 0
               Text = 'Zoom to Bottom-Left'
               TextSettings.WordWrap = True
+              TextSettings.Trimming = None
               OnClick = btnZoomClick
             end
             object btnCenter: TButton
@@ -136,12 +141,14 @@ object MainForm: TMainForm
               TabOrder = 2
               Text = 'Zoom to Center'
               TextSettings.WordWrap = True
+              TextSettings.Trimming = None
               OnClick = btnZoomClick
               object btnCenterChild: TButton
                 Position.X = 113.000000000000000000
                 Position.Y = 59.000000000000000000
                 TabOrder = 5
                 Text = 'Zoom to Child'
+                TextSettings.Trimming = None
                 OnClick = btnZoomClick
               end
             end
@@ -156,6 +163,7 @@ object MainForm: TMainForm
               TabOrder = 4
               Text = 'Zoom to up-scaled'
               TextSettings.WordWrap = True
+              TextSettings.Trimming = None
               OnClick = btnZoomClick
               object btnDownScaledChild: TButton
                 Position.X = 1.000000000000000000
@@ -167,6 +175,7 @@ object MainForm: TMainForm
                 Size.PlatformDefault = False
                 TabOrder = 5
                 Text = 'Zoom to down-scaled Child'
+                TextSettings.Trimming = None
                 OnClick = btnZoomClick
               end
             end
@@ -181,6 +190,7 @@ object MainForm: TMainForm
               TabOrder = 3
               Text = 'Zoom to down-scaled'
               TextSettings.WordWrap = True
+              TextSettings.Trimming = None
               OnClick = btnZoomClick
             end
           end
@@ -241,7 +251,7 @@ object MainForm: TMainForm
           Size.Height = 19.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 1
-          Value = 1.000000000000000000
+          Value = 1.000000047497451000
           OnTracking = trackZoomXTracking
         end
         object trackZoomY: TTrackBar
@@ -257,7 +267,7 @@ object MainForm: TMainForm
           Size.Height = 19.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 2
-          Value = 1.000000000000000000
+          Value = 1.000000047497451000
           OnTracking = trackZoomYTracking
         end
         object switchSyncAxes: TSwitch
@@ -281,6 +291,7 @@ object MainForm: TMainForm
     Size.PlatformDefault = False
     StyleLookup = 'drawertoolbutton'
     Text = 'btnMenu'
+    TextSettings.Trimming = None
   end
   object MultiViewFrameStand: TFrameStand
     AnimationShow = 'OnShow*'

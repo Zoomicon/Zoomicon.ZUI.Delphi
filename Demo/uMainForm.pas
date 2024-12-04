@@ -3,7 +3,7 @@ unit uMainForm;
 interface
 
 uses
-  Zoomicon.Zooming.Models,  //for IZoomable
+  Zoomicon.ZUI.Models, //for IZoomable
   Zoomicon.Introspection.FMX.StructureView, //for TStructureView
   FrameStand, //for TFrameInfo;
   SubjectStand,

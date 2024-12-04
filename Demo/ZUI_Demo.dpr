@@ -6,8 +6,7 @@ uses
   FMX.Forms,
   uMainForm in 'uMainForm.pas' {MainForm},
   uZoomFrameForm in 'uZoomFrameForm.pas' {ZoomFrameForm},
-  uZoomedLayoutForm in 'uZoomedLayoutForm.pas' {ZoomedLayoutForm},
-  Zoomicon.Introspection.FMX.StructureView in '..\..\Zoomicon.Introspection\Zoomicon.Introspection.FMX.StructureView.pas' {StructureView: TFrame};
+  uZoomedLayoutForm in 'uZoomedLayoutForm.pas' {ZoomedLayoutForm};
 
 {$R *.res}
 
