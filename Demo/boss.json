@@ -5,7 +5,7 @@
 
     "version": "1.0",
 
-    "homepage": "https://github.com/Zoomicon/Zoomicon.ZUI.FMX.Demo/Demo",
+    "homepage": "https://github.com/Zoomicon/Zoomicon.ZUI.FMX.Delphi/Demo",
 
     "main": "ZUI_Demo.dproj",
     "mainsrc": ".",
