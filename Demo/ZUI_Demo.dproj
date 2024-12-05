@@ -114,7 +114,7 @@
         <Icon_MainIcon>$(BDS)\bin\delphi_PROJECTICON.ico</Icon_MainIcon>
         <Icns_MainIcns>$(BDS)\bin\delphi_PROJECTICNS.icns</Icns_MainIcns>
         <SanitizedProjectName>ZUI_Demo</SanitizedProjectName>
-        <DCC_UnitSearchPath>..\modules\.dcp;..\modules\.dcu;..\modules;modules\.dcp;modules\.dcu;modules;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+        <DCC_UnitSearchPath>modules\zoomicon.helpers.fmx.delphi\Source\Zoomicon.Helpers.FMX.Controls;modules\zoomicon.helpers.fmx.delphi\Source\Zoomicon.Helpers.FMX.Forms;modules\zoomicon.helpers.fmx.delphi\Source\Zoomicon.Helpers.FMX.ImgList;modules\zoomicon.helpers.fmx.delphi\Source\Zoomicon.Helpers.FMX.Layouts;modules\zoomicon.helpers.fmx.delphi\Source\Zoomicon.Helpers.FMX.TreeView;C:\Users\birbi\OneDrive\OSS@GitHub\Zoomicon.ZUI.Delphi\Demo\modules\zoomicon.helpers.rtl.delphi\Source\Zoomicon.Helpers.RTL;C:\Users\birbi\OneDrive\OSS@GitHub\Zoomicon.ZUI.Delphi\Demo\modules\zoomicon.introspection.fmx.delphi\Source;C:\Users\birbi\OneDrive\OSS@GitHub\Zoomicon.ZUI.Delphi\Demo\modules\zoomicon.zui.fmx.delphi\Source;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Android)'!=''">
         <DCC_UsePackage>soapserver;IndySystem;fmx;DbxCommonDriver;bindengine;IndyIPCommon;FireDACCommonDriver;IndyProtocols;IndyIPClient;dbxcds;bindcomp;FmxTeeUI;FireDACCommon;IndyCore;RESTBackendComponents;bindcompfmx;bindcompdbx;rtl;FireDACSqliteDriver;DbxClientDriver;RESTComponents;DBXSqliteDriver;IndyIPServer;fmxFireDAC;dbexpress;dsnapxml;soapmidas;inet;FireDAC;xmlrtl;tethering;dbrtl;dsnap;CloudService;CustomIPTransport;FMXTee;soaprtl;DBXInterBaseDriver;FireDACIBDriver;$(DCC_UsePackage)</DCC_UsePackage>
@@ -260,8 +260,9 @@
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
         <DCC_RemoteDebug>false</DCC_RemoteDebug>
-        <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>
         <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <VerInfo_Locale>1033</VerInfo_Locale>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Win64)'!=''">
         <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>

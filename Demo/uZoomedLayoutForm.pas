@@ -5,7 +5,7 @@ unit uZoomedLayoutForm;
 interface
 
 uses
-  Zoomicon.Zooming.FMX, //for TZoomedLayout
+  Zoomicon.ZUI.FMX, //for TZoomedLayout
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Layouts,
   FMX.Controls.Presentation, FMX.StdCtrls;

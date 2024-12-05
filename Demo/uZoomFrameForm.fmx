@@ -24,6 +24,7 @@ object ZoomFrameForm: TZoomFrameForm
       TabOrder = 1
       Text = 'Zoom to Bottom-Left'
       TextSettings.WordWrap = True
+      TextSettings.Trimming = None
       OnClick = btnZoomClick
     end
   end
