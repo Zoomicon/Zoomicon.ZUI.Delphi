@@ -1,28 +1,28 @@
 {
-  "package": {
-    "name": "Zoomicon.ZUI.FMX",
-    "version": "1.0",
+  "name": "Zoomicon.ZUI.FMX",
+  "version": "3.0",
 
-    "description": "Zoomable User Interface (ZUI) controls for Delphi FMX",
+  "description": "Zoomable User Interface (ZUI) controls for Delphi FMX",
 
-    "author": "George Birbilis - Zoomicon.com",
-    "license": "MIT",
-    
-    "dependencies": {
-        "github.com/zoomicon/zoomicon.helpers.fmx.delphi": ">0.0.0"
-    },
+  "author": "George Birbilis - Zoomicon.com",
+  "license": "MIT",
 
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/Zoomicon/Zoomicon.ZUI.FMX.Delphi"
-    },
-    "main": "Source/Zoomicon.ZUI.FMX.dproj",
+  "dependencies": {
+    "github.com/zoomicon/zoomicon.helpers.fmx.delphi": ">=3.0.0"
+  },
 
-    "projects": [
-      "Source/Zoomicon.ZUI.FMX.dproj"
-    ],
-    "files": [
-      "Source/**/*.pas"
-    ]
-  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zoomicon/Zoomicon.ZUI.FMX.Delphi"
+  },
+
+  "main": "Source/Zoomicon.ZUI.FMX.dproj",
+
+  "projects": [
+    "Source/Zoomicon.ZUI.FMX.dproj"
+  ],
+
+  "files": [
+    "Source/**/*.pas"
+  ]
 }
